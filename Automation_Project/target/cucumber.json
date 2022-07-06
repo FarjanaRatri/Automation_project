@@ -1,0 +1,1207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-15T19:15:06.718Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1992400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.739Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.744Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.750Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"1234567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"1234567\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.755Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.759Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 19300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456789\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.764Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456789ABCDE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456789ABCDE\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.767Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456789ABCDEF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456789ABCDEF\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-15T19:15:06.771Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title;;10",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email \"\u003cemail\u003e\" and password \"123456789ABCDEFG\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cemail\u003e\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456789ABCDEFG\"",
+                  "offset": 41
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to login with valid username \u0026 password",
+    "description": "Description: \"User login to zoopla website and verify login\"",
+    "id": "user-is-able-to-login-with-valid-username-\u0026-password",
+    "keyword": "Feature",
+    "uri": "file:Features/NegetiveTesting.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-15T19:15:06.775Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.initialization()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User login with valid username and verify page title",
+        "description": "",
+        "id": "user-is-able-to-login-with-valid-username-\u0026-password;user-login-with-valid-username-and-verify-page-title",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can open any browser",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_can_open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to enter \"https://www.zoopla.co.uk/\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.zoopla.co.uk/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_enter_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Login in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_the_login_in_botton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters email \"ferdausi2830@gmail.com\" and password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ferdausi2830@gmail.com\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.stepdefinition.LoginFunction.user_enters_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Sign in botton",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_clicks_on_sign_in_botton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is able to verify successful login \u0026 verify page title",
+            "match": {
+              "location": "com.stepdefinition.LoginFunction.user_is_able_to_verify_successful_login_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to login with valid username \u0026 password",
+    "description": "Description: \"User login to zoopla website and verify login\"",
+    "id": "user-is-able-to-login-with-valid-username-\u0026-password",
+    "keyword": "Feature",
+    "uri": "file:Features/login.feature",
+    "tags": []
+  }
+]
